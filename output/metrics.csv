@@ -1,0 +1,5 @@
+model,setting,HitRate@10,NDCG@10,Recall@10,Precision@10,GenreMatch@1
+zero_shot,cross_domain_48k_pairs,0.4625,0.2361,0.4625,0.0462,0.3500
+learned_mapping,cross_domain_48k_pairs,0.3055,0.1666,0.3055,0.0305,0.4060
+book_ncf,in_domain_1of99,0.2400,,,,
+book_ncf,in_domain_full_catalog,0.0000,,,,

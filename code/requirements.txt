@@ -1,0 +1,19 @@
+# Core scientific stack
+# Note: several libraries in this pipeline assume NumPy 1.x. If you install
+# NumPy 2.x you may hit ABI errors with some packages, so we pin below.
+numpy<2.0
+pandas
+scikit-learn
+scipy
+
+# Text & embeddings
+sentence-transformers
+torch
+
+# Visualization
+matplotlib
+seaborn
+networkx
+
+# Utilities
+tqdm

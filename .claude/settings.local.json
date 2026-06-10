@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rscript --version)",
+      "Bash(ls -lah --time-style=long-iso)",
+      "Bash(wc -l *.csv)",
+      "Bash(python3 -)",
+      "Bash(python3 -m pip install --user pymupdf -q)",
+      "Bash(mkdir -p data/sample code output/figures report website)",
+      "Bash(git rev-parse *)",
+      "Bash(mv \"ML Final Project Report.pdf\" \"report/Semantic_Bridges_Report.pdf\")",
+      "Bash(mv \"AML_Final_Project.pptx\" \"report/Semantic_Bridges_Slides.pptx\")"
+    ]
+  }
+}
